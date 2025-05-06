@@ -1,0 +1,7 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#22C55E"/>
+  <path d="M0 100C50 50 100 150 150 100C200 50 250 150 300 100C350 50 400 150 400 100V300H0V100Z" fill="#166534"/>
+  <path d="M200 50L230 110H170L200 50Z" fill="#FBBF24"/>
+  <circle cx="200" cy="150" r="30" fill="#FBBF24"/>
+  <text x="140" y="220" font-family="Arial" font-size="24" font-weight="bold" fill="white">Aventura</text>
+</svg>

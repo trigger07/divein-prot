@@ -1,0 +1,9 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#16A34A"/>
+  <path d="M0 200C50 180 100 220 150 200C200 180 250 220 300 200C350 180 400 220 400 200V300H0V200Z" fill="#166534"/>
+  <circle cx="300" cy="80" r="40" fill="#FBBF24"/>
+  <path d="M150 250L200 150L250 250H150Z" fill="#166534"/>
+  <path d="M100 250L150 120L200 250H100Z" fill="#166534"/>
+  <path d="M200 250L250 100L300 250H200Z" fill="#166534"/>
+  <text x="150" y="70" font-family="Arial" font-size="24" font-weight="bold" fill="white">Naturaleza</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#EC4899"/>
+  <path d="M0 250C50 230 100 270 150 250C200 230 250 270 300 250C350 230 400 270 400 250V300H0V250Z" fill="#831843"/>
+  <rect x="80" y="100" width="40" height="150" fill="#FBCFE8"/>
+  <rect x="130" y="150" width="40" height="100" fill="#FBCFE8"/>
+  <rect x="180" y="80" width="40" height="170" fill="#FBCFE8"/>
+  <rect x="230" y="120" width="40" height="130" fill="#FBCFE8"/>
+  <rect x="280" y="60" width="40" height="190" fill="#FBCFE8"/>
+  <circle cx="50" cy="80" r="30" fill="#FBBF24"/>
+  <text x="160" y="60" font-family="Arial" font-size="24" font-weight="bold" fill="white">Tokio</text>
+</svg>

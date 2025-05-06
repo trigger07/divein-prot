@@ -1,0 +1,7 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M10 20C10 14.4772 14.4772 10 20 10H30C35.5228 10 40 14.4772 40 20C40 25.5228 35.5228 30 30 30H20C14.4772 30 10 25.5228 10 20Z" fill="#0EA5E9"/>
+  <path d="M45 15H75V25H45V15Z" fill="#0EA5E9"/>
+  <path d="M80 20C80 14.4772 84.4772 10 90 10H100C105.523 10 110 14.4772 110 20C110 25.5228 105.523 30 100 30H90C84.4772 30 80 25.5228 80 20Z" fill="#0EA5E9"/>
+  <text x="20" y="24" font-family="Arial" font-size="14" font-weight="bold" fill="white">DIVE</text>
+  <text x="90" y="24" font-family="Arial" font-size="14" font-weight="bold" fill="white">IN</text>
+</svg>

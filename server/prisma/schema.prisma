@@ -1,0 +1,129 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Enumeraciones
+enum UserRole {
+  TRAVELER
+  HOST
+}
+
+enum ExperienceType {
+  GASTRONOMY
+  ADVENTURE
+  CULTURAL
+  NATURE
+  URBAN
+  OTHER
+}
+
+enum ExperienceStatus {
+  ACTIVE
+  INACTIVE
+}
+
+enum ReservationStatus {
+  PENDING
+  CONFIRMED
+  CANCELLED
+}
+
+// Modelos
+model User {
+  id             String       @id @default(uuid())
+  name           String
+  email          String       @unique
+  password       String
+  phone          String?
+  role           UserRole     @default(TRAVELER)
+  profilePicture String?
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+
+  // Relaciones
+  hostedExperiences Experience[] @relation("HostedExperiences")
+  reservations      Reservation[] @relation("TravelerReservations")
+  reviews           Review[]      @relation("TravelerReviews")
+
+  @@map("users")
+}
+
+model Experience {
+  id             String           @id @default(uuid())
+  hostId         String
+  title          String
+  description    String
+  location       Json             // { city: string, country: string, coordinates?: { lat: number, lng: number } }
+  type           ExperienceType
+  price          Decimal          @db.Decimal(10, 2)
+  duration       Float            // en horas
+  languages      String[]
+  maxPeople      Int
+  images         String[]
+  availableDates DateTime[]
+  rating         Float            @default(0)
+  status         ExperienceStatus @default(ACTIVE)
+  createdAt      DateTime         @default(now())
+  updatedAt      DateTime         @updatedAt
+
+  // Relaciones
+  host         User          @relation("HostedExperiences", fields: [hostId], references: [id])
+  reservations Reservation[] @relation("ExperienceReservations")
+  reviews      Review[]      @relation("ExperienceReviews")
+
+  @@index([hostId])
+  @@index([type])
+  @@index([status])
+  @@map("experiences")
+}
+
+model Reservation {
+  id             String            @id @default(uuid())
+  experienceId   String
+  travelerId     String
+  date           DateTime
+  numberOfPeople Int
+  totalPrice     Decimal           @db.Decimal(10, 2)
+  status         ReservationStatus @default(PENDING)
+  paymentId      String?
+  contactInfo    Json              // { name: string, email: string, phone: string }
+  createdAt      DateTime          @default(now())
+  updatedAt      DateTime          @updatedAt
+
+  // Relaciones
+  experience Experience @relation("ExperienceReservations", fields: [experienceId], references: [id])
+  traveler   User       @relation("TravelerReservations", fields: [travelerId], references: [id])
+
+  @@index([experienceId])
+  @@index([travelerId])
+  @@index([status])
+  @@map("reservations")
+}
+
+model Review {
+  id           String   @id @default(uuid())
+  experienceId String
+  travelerId   String
+  rating       Int      @db.SmallInt // 1-5
+  comment      String
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  // Relaciones
+  experience Experience @relation("ExperienceReviews", fields: [experienceId], references: [id])
+  traveler   User       @relation("TravelerReviews", fields: [travelerId], references: [id])
+
+  // Un usuario solo puede dejar una reseña por experiencia
+  @@unique([experienceId, travelerId])
+  @@index([experienceId])
+  @@index([travelerId])
+  @@map("reviews")
+}

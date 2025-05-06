@@ -1,0 +1,9 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#0EA5E9"/>
+  <rect x="120" y="100" width="40" height="150" fill="#BAE6FD"/>
+  <rect x="180" y="80" width="40" height="170" fill="#BAE6FD"/>
+  <rect x="240" y="120" width="40" height="130" fill="#BAE6FD"/>
+  <path d="M0 250C50 230 100 270 150 250C200 230 250 270 300 250C350 230 400 270 400 250V300H0V250Z" fill="#0284C7"/>
+  <circle cx="300" cy="80" r="40" fill="#FBBF24"/>
+  <text x="120" y="60" font-family="Arial" font-size="24" font-weight="bold" fill="white">Barcelona</text>
+</svg>

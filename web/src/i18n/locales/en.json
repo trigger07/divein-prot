@@ -1,0 +1,387 @@
+{
+  "common": {
+    "appName": "DiveIn",
+    "tagline": "Local Tourism Experiences",
+    "search": "Search",
+    "viewAll": "View all",
+    "explore": "Explore",
+    "loading": "Loading...",
+    "error": "An error has occurred",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "seeMore": "See more",
+    "seeLess": "See less",
+    "readMore": "Read more",
+    "showMore": "Show more",
+    "showLess": "Show less",
+    "details": "Details",
+    "viewDetails": "View details",
+    "success": "Success!",
+    "more": "more",
+    "noImagesAvailable": "No images available",
+    "perPerson": "per person",
+    "hour": "hour",
+    "hours": "hours",
+    "minutes": "minutes"
+  },
+  "navigation": {
+    "home": "Home",
+    "experiences": "Experiences",
+    "about": "About",
+    "contact": "Contact",
+    "profile": "My profile",
+    "myReservations": "My reservations",
+    "myExperiences": "My experiences",
+    "dashboard": "Dashboard",
+    "settings": "Settings",
+    "help": "Help",
+    "login": "Log in",
+    "signup": "Sign up",
+    "logout": "Log out",
+    "becomeHost": "Become a host"
+  },
+  "home": {
+    "hero": {
+      "title": "Discover unique local experiences",
+      "subtitle": "Connect with local hosts and enjoy authentic adventures in your next destination",
+      "imageAlt": "Tourism experiences",
+      "cta": "Explore experiences",
+      "slides": {
+        "adventure": {
+          "title": "Adventures you'll remember for a lifetime",
+          "subtitle": "Discover adventure experiences with expert local guides",
+          "cta": "Explore adventures"
+        },
+        "gastronomy": {
+          "title": "Authentic flavors in every bite",
+          "subtitle": "Discover local gastronomy with chefs and local producers",
+          "cta": "Explore gastronomy"
+        },
+        "cultural": {
+          "title": "Immerse yourself in local culture",
+          "subtitle": "Experience traditions, art and history with passionate hosts",
+          "cta": "Explore culture"
+        }
+      }
+    },
+    "search": {
+      "destination": "Where to?",
+      "destinationPlaceholder": "Where do you want to go?",
+      "category": "What experience?",
+      "categoryPlaceholder": "Type of experience",
+      "allCategories": "All categories",
+      "date": "Date",
+      "guests": "Guests",
+      "popularDestinations": {
+        "title": "Popular destinations",
+        "barcelona": "Barcelona",
+        "mexicoCity": "Mexico City",
+        "tokyo": "Tokyo",
+        "newYork": "New York",
+        "bangkok": "Bangkok"
+      },
+      "popularCategories": {
+        "title": "Popular categories"
+      }
+    },
+    "featuredExperiences": {
+      "title": "Featured experiences",
+      "subtitle": "Explore the best-rated experiences from our travelers"
+    },
+    "howItWorks": {
+      "title": "How DiveIn works",
+      "step1": {
+        "title": "Search experiences",
+        "description": "Explore unique experiences in your destination filtered by type, date, and price."
+      },
+      "step2": {
+        "title": "Book your adventure",
+        "description": "Select date, number of people, and complete your reservation securely."
+      },
+      "step3": {
+        "title": "Live the experience",
+        "description": "Enjoy authentic moments with passionate local hosts."
+      }
+    },
+    "categories": {
+      "title": "Popular categories",
+      "subtitle": "Explore experiences by category and find the perfect adventure for you",
+      "gastronomy": "Gastronomy",
+      "adventure": "Adventure",
+      "cultural": "Cultural",
+      "nature": "Nature",
+      "urban": "Urban",
+      "experiences": "experiences",
+      "viewAll": "View all categories",
+      "Gastronomía": "Gastronomy",
+      "Aventura": "Adventure",
+      "Cultural": "Cultural",
+      "Naturaleza": "Nature",
+      "Urbano": "Urban"
+    },
+    "destinations": {
+      "title": "Popular destinations",
+      "subtitle": "Discover cities with the best experiences around the world",
+      "experiences": "experiences",
+      "viewAll": "View all destinations"
+    },
+    "becomeHost": {
+      "title": "Do you have a unique experience to share?",
+      "subtitle": "Become a host and share your passion with travelers from around the world",
+      "cta": "Become a host",
+      "title2": "Become a host",
+      "description": "Share your passion, knowledge, and culture with travelers from around the world. Create unique experiences and generate additional income.",
+      "point1": "Share your knowledge and local expertise",
+      "point2": "Generate additional income doing what you love",
+      "point3": "Meet people from around the world and create connections",
+      "startNow": "Start now"
+    }
+  },
+  "experiences": {
+    "filters": {
+      "title": "Filters",
+      "price": "Price",
+      "duration": "Duration",
+      "category": "Category",
+      "rating": "Rating",
+      "language": "Language",
+      "accessibility": "Accessibility",
+      "applyFilters": "Apply filters",
+      "clearFilters": "Clear filters",
+      "resultsCount": "{{count}} results"
+    },
+    "card": {
+      "from": "From",
+      "perPerson": "per person",
+      "duration": "{{hours}} {{hours, plural, one {hour} other {hours}}}",
+      "rating": "{{rating}} ({{count}} {{count, plural, one {review} other {reviews}}})",
+      "host": "Host:",
+      "review": "review",
+      "reviews": "reviews"
+    },
+    "detail": {
+      "hostedBy": "Hosted by {{name}}",
+      "duration": "Duration",
+      "hours": "{{count}} {{count, plural, one {hour} other {hours}}}",
+      "groupSize": "Group size",
+      "upTo": "Up to {{count}} people",
+      "languages": "Languages",
+      "includes": "Includes",
+      "requirements": "Requirements",
+      "location": "Location",
+      "reviews": "Reviews",
+      "availability": "Availability",
+      "selectDate": "Select date",
+      "guests": "Guests",
+      "reserve": "Reserve",
+      "share": "Share",
+      "save": "Save",
+      "report": "Report",
+      "similarExperiences": "Similar experiences"
+    },
+    "maxGroupSize": "{{count}} people max",
+    "hostedBy": "Hosted by",
+    "aboutExperience": "About this experience",
+    "included": "What's included",
+    "excluded": "What's not included",
+    "bookNow": "Book now",
+    "noChargeYet": "You won't be charged yet"
+  },
+  "mockExperience": {
+    "title": "Gastronomic Tour of Barcelona's Local Markets",
+    "description": "Discover the authentic flavors of Barcelona on this tour of the city's most emblematic markets. Accompanied by a local guide who is an expert in gastronomy, you will visit the famous La Boqueria Market and other lesser-known but equally fascinating markets.\n\nYou will taste a selection of traditional tapas, Iberian cold cuts, artisanal cheeses, and typical sweets. You will learn about the culinary history of Catalonia and the preparation techniques of the most representative dishes.\n\nThis experience includes stops at small family stores that have maintained their recipes for generations, where you can taste fresh products and talk directly with local producers.",
+    "languages": {
+      "spanish": "Spanish",
+      "english": "English",
+      "catalan": "Catalan",
+      "french": "French"
+    },
+    "location": "Barcelona, Spain",
+    "included": {
+      "item1": "Tasting of 8 different tapas",
+      "item2": "Drinks (water, wine or soft drink)",
+      "item3": "Local gastronomic guide",
+      "item4": "Digital recipe book of Catalan dishes"
+    },
+    "excluded": {
+      "item1": "Transportation to/from the meeting point",
+      "item2": "Tips (optional)",
+      "item3": "Personal purchases in the markets"
+    }
+  },
+  "mountainHiking": {
+    "title": "Mountain Hiking with Panoramic Views",
+    "description": "Enjoy an unforgettable hiking experience in the Pyrenees mountains, with breathtaking panoramic views of valleys, lakes, and snow-capped peaks. This guided route will take you through well-preserved but less-frequented trails, where you can connect with nature in its purest state.\n\nOur expert guide will share knowledge about local flora and fauna, as well as stories and legends of the region. We will make strategic stops to enjoy the landscape, take photographs, and replenish energy with a picnic of local products at a natural viewpoint.\n\nThe route is of medium difficulty, suitable for people with regular physical condition who enjoy walking in nature. The route includes pine forests, alpine meadows, and unique rock formations.",
+    "languages": {
+      "spanish": "Spanish",
+      "english": "English",
+      "french": "French"
+    },
+    "location": "Pyrenees, Spain",
+    "included": {
+      "item1": "Certified mountain guide",
+      "item2": "Picnic with local products",
+      "item3": "Basic safety equipment",
+      "item4": "Digital photos of the experience"
+    },
+    "excluded": {
+      "item1": "Transportation to the starting point",
+      "item2": "Personal hiking equipment",
+      "item3": "Adventure activities insurance",
+      "item4": "Additional drinks"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Log in",
+      "email": "Email",
+      "password": "Password",
+      "forgotPassword": "Forgot your password?",
+      "loginButton": "Log in",
+      "orContinueWith": "Or continue with",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up"
+    },
+    "signup": {
+      "title": "Create account",
+      "name": "Full name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "signupButton": "Sign up",
+      "orContinueWith": "Or continue with",
+      "alreadyAccount": "Already have an account?",
+      "login": "Log in",
+      "termsAndConditions": "By signing up, you agree to our Terms and Conditions and Privacy Policy"
+    },
+    "forgotPassword": {
+      "title": "Reset password",
+      "email": "Email",
+      "sendButton": "Send recovery link",
+      "backToLogin": "Back to log in",
+      "instructions": "Enter your email address and we'll send you a link to reset your password.",
+      "emailSent": "We've sent a recovery link to {{email}}. Please check your inbox."
+    }
+  },
+  "profile": {
+    "personalInfo": "Personal information",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "language": "Language",
+    "currency": "Currency",
+    "notifications": "Notifications",
+    "security": "Security",
+    "changePassword": "Change password",
+    "currentPassword": "Current password",
+    "newPassword": "New password",
+    "confirmNewPassword": "Confirm new password",
+    "saveChanges": "Save changes",
+    "paymentMethods": "Payment methods",
+    "addPaymentMethod": "Add payment method"
+  },
+  "reservations": {
+    "upcoming": "Upcoming",
+    "past": "Past",
+    "cancelled": "Cancelled",
+    "noReservations": "You don't have any {{type}} reservations",
+    "bookNow": "Book now",
+    "viewDetails": "View details",
+    "cancelReservation": "Cancel reservation",
+    "date": "Date",
+    "time": "Time",
+    "guests": "Guests",
+    "totalPrice": "Total price",
+    "status": "Status",
+    "confirmed": "Confirmed",
+    "pending": "Pending",
+    "cancelledStatus": "Cancelled",
+    "completed": "Completed"
+  },
+  "host": {
+    "dashboard": {
+      "title": "Dashboard",
+      "earnings": "Earnings",
+      "reservations": "Reservations",
+      "views": "Views",
+      "rating": "Rating",
+      "upcomingReservations": "Upcoming reservations",
+      "recentReviews": "Recent reviews",
+      "performance": "Performance"
+    },
+    "experiences": {
+      "title": "My experiences",
+      "addNew": "Add new experience",
+      "edit": "Edit",
+      "delete": "Delete",
+      "status": "Status",
+      "published": "Published",
+      "draft": "Draft",
+      "underReview": "Under review",
+      "noExperiences": "You don't have any experiences",
+      "createFirst": "Create your first experience"
+    },
+    "createExperience": {
+      "title": "Create experience",
+      "basicInfo": "Basic information",
+      "experienceName": "Experience name",
+      "category": "Category",
+      "description": "Description",
+      "duration": "Duration",
+      "groupSize": "Group size",
+      "price": "Price",
+      "currency": "Currency",
+      "location": "Location",
+      "photos": "Photos",
+      "uploadPhotos": "Upload photos",
+      "whatIsIncluded": "What's included",
+      "requirements": "Requirements",
+      "schedule": "Schedule",
+      "addDate": "Add date",
+      "preview": "Preview",
+      "publish": "Publish",
+      "saveAsDraft": "Save as draft"
+    }
+  },
+  "footer": {
+    "explore": "Explore",
+    "allExperiences": "All experiences",
+    "gastronomy": "Gastronomy",
+    "adventure": "Adventure",
+    "cultural": "Cultural",
+    "nature": "Nature",
+    "hosts": "Hosts",
+    "becomeHost": "Become a host",
+    "hostResources": "Host resources",
+    "community": "Community",
+    "faq": "FAQ",
+    "support": "Support",
+    "helpCenter": "Help center",
+    "contact": "Contact",
+    "privacyPolicy": "Privacy policy",
+    "termsAndConditions": "Terms and conditions",
+    "about": "About us",
+    "copyright": " {{year}} DiveIn. All rights reserved."
+  },
+  "errors": {
+    "general": "An error has occurred",
+    "network": "Connection error",
+    "notFound": "Not found",
+    "unauthorized": "Unauthorized",
+    "forbidden": "Access denied",
+    "validation": "Validation error",
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email address",
+    "passwordMismatch": "Passwords do not match",
+    "passwordLength": "Password must be at least 8 characters",
+    "tryAgain": "Please try again"
+  }
+}

@@ -1,0 +1,7 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="400" fill="#16A34A"/>
+  <path d="M0 200C50 180 100 220 150 200C200 180 250 220 300 200C350 180 400 220 450 200C500 180 550 220 600 200V400H0V200Z" fill="#166534"/>
+  <path d="M50 150C50 150 100 100 150 150C200 200 250 100 300 150C350 200 400 100 450 150C500 200 550 100 600 150" stroke="#84CC16" stroke-width="10"/>
+  <circle cx="500" cy="80" r="40" fill="#FBBF24"/>
+  <text x="150" y="350" font-family="Arial" font-size="24" fill="white">Recorrido por la selva tropical</text>
+</svg>
